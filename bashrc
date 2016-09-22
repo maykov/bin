@@ -2,3 +2,4 @@ PS1='$(hostname) \[\e[0;32m\]\d\[\e[0;36m\]-\[\e[0;38m\]\t\[\e[m\] \[\e[1;34m\]\
 export PATH=~/bin:$PATH
 export TZ=America/Los_Angeles
 export EDITOR=vi
+export CSCOPE_DB=/home/vagrant/ctags/cscope.out
