@@ -12,7 +12,7 @@ def goto_selected_frame():
 
 def to_loc(sal):
   if sal is not None and sal.symtab is not None:
-    return sal.symtab.filename, int(sal.line)
+    return sal.symtab.fullname(), int(sal.line)
   else:
     return None, None
 
